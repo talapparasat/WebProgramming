@@ -1,0 +1,22 @@
+body {
+    
+}
+.content {
+    width: 700px;
+    background-color: brown;
+    margin-left: 350px;
+    padding: 5px;
+}
+p {
+    padding-top: 5px;
+    color:yellow;
+}
+.title {
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+}
+hr {
+    /* color: blueviolet; */
+    border: solid 1px blueviolet;
+}

@@ -1,0 +1,35 @@
+body{
+    /* display: flex; */
+    background-color: white;
+}
+.content{
+    background-color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: solid chocolate 1px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+.grid-item{
+    text-align: center;
+    padding: 10px 0;
+    /* width: auto; */
+    /* height: 70px; */
+    border: solid 1px black ;
+    font-size: 50px;
+    /* padding: auto; */
+    background-color: palegoldenrod;
+}
+.holidays{
+    grid-column:  span 2;
+    grid-row: span 2;
+    /* height: 180px; */
+    background-color: orange;
+
+}

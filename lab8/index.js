@@ -2,7 +2,7 @@ function f3()
 {
 	let str = document.getElementById("task3").value;
 	arr1 = str.split(' ');
-	console.log(arr1);
+
 	// let arr1 = [1,2,3,45];
 	for(let i=0;i<arr1.length;i++)
 	{
@@ -18,7 +18,7 @@ function f3()
 function f2(event)
 {
 	let str = document.getElementById("task2").value;
-	console.log(str);
+
 	// document.write(str + '<br>');
 	for(let i = 0;i<str.length;i++)
 	{

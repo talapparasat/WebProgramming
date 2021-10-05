@@ -2,7 +2,7 @@ function Create()
 {
     var task = document.createElement("div");
     task.className = 'task';
-//-------------------------------------
+
     var task_text = document.getElementById('tdl').value;
     if(task_text===''||task_text===' ')
     {
@@ -18,7 +18,6 @@ function Create()
     text.appendChild(ttext);
     document.getElementById('tdl').value = '';
 
- //----------------------------   
     var check = document.createElement('div');
     check.className = 'check';
 
@@ -39,7 +38,7 @@ function Create()
             t.className = 'notdoneyet';
         }
     }
-//------------------------------------
+
     var deletion = document.createElement("div");
     deletion.className = 'dele';
     var btn = document.createElement("button");
@@ -52,14 +51,13 @@ function Create()
     }
     btn.appendChild(btn_img);
     deletion.appendChild(btn);
-//--------------------------------
     
 
     task.appendChild(check);
     task.appendChild(text);
     
     task.appendChild(deletion);
-//----------------------------------------
+
     var list = document.getElementById('contb');
 
     list.appendChild(task);    

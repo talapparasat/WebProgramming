@@ -1,4 +1,4 @@
 ### lab works
 ## dev 
 
-Here we learned Angular and Django Frameworks
+Here we learn Angular and Django Frameworks
